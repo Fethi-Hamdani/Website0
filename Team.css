@@ -1,0 +1,1437 @@
+*
+{
+    -webkit-transition	: all .5s ease-in-out;
+    -moz-transition		: all .5s ease-in-out;
+    -o-transition		: all .5s ease-in-out;
+    -ms-transition		: all .5s ease-in-out;
+    transition			: all .5s ease-in-out
+}
+html
+{
+	-webkit-scroll-behavior : smooth;
+	-moz-scroll-behavior	: smooth;
+	-o-scroll-behavior		: smooth;
+	-ms-scroll-behavior		: smooth;
+	scroll-behavior			: smooth;
+}
+body
+{
+	background: url('../images/bg pictures/img8.jpg') no-repeat fixed;
+	background-size:  100% 100%;
+	font-family: arial
+}
+
+
+
+
+/*	=====   	Header  Begin  	=====	*/
+
+.container
+{
+	width: 90%;
+	margin: auto
+}
+header
+{
+	position: fixed;
+	width: 98.8%;
+	-webkit-z-index : 99;
+	-moz-z-index	: 99;
+	-o-z-index		: 99;
+	-ms-z-index		: 99;
+	z-index			: 99
+}
+header nav 
+{
+	background-color: rgb(38, 48, 60);
+	color: aqua;
+	padding: 7px
+}
+header .container
+{
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap	 : wrap;
+	-o-flex-wrap	 : wrap;
+	-ms-flex-wrap	 : wrap;
+	flex-wrap		 : wrap;
+	-moz-justify-content	: space-between;
+	-webkit-justify-content : space-between;
+	-o-justify-content		: space-between;
+	-ms-justify-content		: space-between;
+	justify-content			: space-between;
+	-moz-align-items	: center;
+	-webkit-align-items : center;
+	-o-align-items		: center;
+	-ms-align-items		: center;
+	align-items			: center;
+	font-family: arial
+}
+header .container .logo
+{
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap	 : wrap;
+	-o-flex-wrap	 : wrap;
+	-ms-flex-wrap	 : wrap;
+	flex-wrap		 : wrap
+}
+.logo img
+{
+    width: 70px;
+    height: 68px;
+    margin-left: 40px;
+    border-radius: 50%
+}
+ul
+{
+	list-style-type: none
+}
+header nav ul li
+{
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: 600
+}
+header nav ul li a
+{
+	text-decoration: none;
+	cursor: pointer;
+	color: gold
+}
+header nav ul li a:hover
+{
+	-webkit-animation: signal .5s 1 ease-in-out;
+	-moz-animation	 : signal .5s 1 ease-in-out;
+	-o-animation	 : signal .5s 1 ease-in-out;
+	-ms-animation	 : signal .5s 1 ease-in-out;
+	animation		 : signal .5s 1 ease-in-out
+}
+@keyframes signal
+{
+	0%
+	{
+		color: rgb(38, 48, 60)
+	}
+	100%
+	{
+		color: gold
+	}
+}
+#home
+{
+	text-decoration: underline
+}
+
+/*	=====   	Header  End  	=====	*/
+
+
+
+
+/*	=====		Home Begin		=====	*/
+
+.quote
+{
+    text-align: center;
+    color: #EEE
+}
+hr
+{
+	width: 13%;
+	border: 2px solid gold
+}
+section  h1
+{
+	color: gold;
+	text-align: center;
+	-webkit-text-shadow : 2px 2px 5px grey;
+	-moz-text-shadow	: 2px 2px 5px grey;
+	-o-text-shadow		: 2px 2px 5px grey;
+	-ms-text-shadow		: 2px 2px 5px grey;
+	text-shadow			: 2px 2px 5px grey
+}
+.openHome .title
+{
+	margin-top: 50px
+}
+.openHome .title h4
+{
+	text-align: center;
+	font-size: 14px;
+	color: #FFF;
+	letter-spacing: 3px
+}
+.openHome .title h1
+{
+	font-size: 45px;
+	margin-top: 5px;
+	color: aqua
+}
+.openHome .title hr
+{
+	width: 20%;
+	border: 1px dashed aqua
+}
+.characteristics
+{
+	position: relative;
+    height: 200px;
+    width: 500px;
+    margin: 80px auto
+}
+.characteristics div
+{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    background-color: #FFF;
+    color: #000;
+    -webkit-animation: move 6s infinite ease-in-out;
+    -moz-animation	 : move 6s infinite ease-in-out;
+    -o-animation	 : move 6s infinite ease-in-out;
+    -ms-animation	 : move 6s infinite ease-in-out;
+    animation		 : move 6s infinite ease-in-out
+}
+.characteristics div:first-of-type
+{
+    -webkit-animation-delay : 4.5s;
+    -moz-animation-delay	: 4.5s;
+    -o-animation-delay		: 4.5s;
+    -ms-animation-delay		: 4.5s;
+    animation-delay			: 4.5s
+}
+.characteristics div:nth-of-type(2)
+{
+    -webkit-animation-delay : 3s;
+    -moz-animation-delay	: 3s;
+    -o-animation-delay		: 3s;
+    -ms-animation-delay		: 3s;
+    animation-delay			: 3s
+}
+.characteristics div:nth-of-type(3)
+{
+    -webkit-animation-delay : 1.5s;
+    -moz-animation-delay	: 1.5s;
+    -o-animation-delay		: 1.5s;
+    -ms-animation-delay		: 1.5s;
+    animation-delay			: 1.5s
+}
+.characteristics div:last-of-type
+{
+    -webkit-animation-delay : 0s;
+    -moz-animation-delay	: 0s;
+    -o-animation-delay		: 0s;
+    -ms-animation-delay		: 0s;
+    animation-delay			: 0s
+}
+@keyframes move
+{
+    0%
+    {
+        left: 0;
+        top: 0
+    }
+    25%
+    {
+        left: 0;
+        top: 150px;
+        background-color: #000;
+        color: #FFF
+    }
+    50%
+    {
+        left: 350px;
+        top: 150px;
+        color: #000;
+        background-color: #FFF
+    }
+    75%
+    {
+        left: 350px;
+        top: 0;
+        background-color: #000;
+        color: #FFF
+    }
+    100%
+    {
+        left: 0;
+        top: 0;
+        color: #000;
+        background-color: #FFF
+    }
+}
+
+/*	=====		Home End		=====	*/
+
+
+
+
+/*	=====		Team Begin		=====	*/
+
+.openTeam .membersOne
+{
+    position: relative;
+    width: 50%;
+    height: 600px;
+	margin: auto
+}
+.openTeam .membersOne img, .openTeam .membersOne .membersTwo
+{
+    position: absolute;
+    top: 42.5%;
+    left: 42.5%;
+    height: 15%;
+    width: 15%;
+    background-color: #BBB;
+    text-align: center;
+    line-height: 90px;
+    font-size: 20px;
+	font-weight: bold;
+    border-radius: 50%;
+	-webkit-box-shadow	: 0 0 10px 5px gold;
+	-moz-box-shadow	  	: 0 0 10px 5px gold;
+	-o-box-shadow		: 0 0 10px 5px gold;
+	-ms-box-shadow		: 0 0 10px 5px gold;
+	box-shadow			: 0 0 10px 5px gold;
+	cursor: pointer
+}
+
+/*	=====		Team End		=====	*/
+
+
+
+
+/*	=====   	Our Work  Begin	=====	*/
+
+.openOurWork .injaz
+{
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap	 : wrap;
+	-o-flex-wrap	 : wrap;
+	-ms-flex-wrap	 : wrap;
+	flex-wrap		 : wrap;
+	-webkit-justify-content : space-around;
+	-moz-justify-content	: space-around;
+	-o-justify-content		: space-around;
+	-ms-justify-content		: space-around;
+	justify-content			: space-around
+}
+.openOurWork .injaz div
+{
+	width: 400px;
+	height: 200px;
+	background-color: rgba(210, 210, 210, 0.8);
+	border-radius: 15px;
+	margin-top: 20px
+}
+.openOurWork .injaz div h2
+{
+	text-align: center;
+	letter-spacing: 2.5px;
+	font-size: 26px
+}
+.openOurWork .injaz div p
+{
+	line-height: 25px;
+	text-align: center
+}
+
+/*	=====   	Our Work  End  	=====	*/
+
+
+
+
+/*	=====   	Contact Begin	=====	*/
+
+.openContact .free
+{
+	display: flex;
+	-moz-justify-content	: space-between;
+	-webkit-justify-content : space-between;
+	-o-justify-content		: space-between;
+	-ms-justify-content		: space-between;
+	justify-content			: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap	 : wrap;
+	-o-flex-wrap	 : wrap;
+	-ms-flex-wrap	 : wrap;
+	flex-wrap		 : wrap;
+	margin-top: 50px
+}
+.openContact .contact
+{
+	position: relative;
+    color: #EEE;
+    width: 40%;
+    height: 370px;
+	margin: 19px 0 0 30px;
+	padding: 20px;
+	border-radius: 10px
+}
+.openContact .contact h2
+{
+	text-align: center;
+	margin-top: -3px
+}
+.openContact .contact hr
+{
+	border: 1px solid aqua;
+	width: 50%
+}
+.openContact .contact .outils
+{
+	display: flex;
+	margin-top: 10px
+}
+.openContact .contact .outils h3
+{
+    font-size: 24px
+}
+.openContact .contact .outils .github:hover
+{
+    color: black
+}
+.openContact .contact .outils .facebook:hover
+{
+    color: #3578E5
+}
+.openContact .contact .outils .email:hover
+{
+    color: #d93025
+}
+.openContact .contact .outils .phone:hover
+{
+    color: #0F0
+}
+.openContact .contact .outils .infoContact, .openContact .contact .outils .social
+{
+	margin: auto
+}
+.openContact .contact .outils p
+{
+	font-weight: bold;
+	font-size: 16px
+}
+.openContact .message
+{
+	margin: 20px 60px 20px 30px;
+    padding: 15px 5px 2px 25px;
+    width: 40%;
+    height: 370px;
+	border-radius: 10px;
+	position: relative
+}
+.openContact .message .info
+{
+    width: 100%;
+	display: flex;
+	-moz-justify-content	: space-between;
+	-webkit-justify-content : space-between;
+	-o-justify-content		: space-between;
+	-ms-justify-content		: space-between;
+	justify-content			: space-between;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap	 : wrap;
+	-o-flex-wrap	 : wrap;
+	-ms-flex-wrap	 : wrap;
+	flex-wrap		 : wrap
+}
+.openContact .message .info .info1, .openContact .message .info .info2
+{
+	width: 45%;
+    height: 30px;
+	margin-right: -5px
+}
+.openContact .message textarea
+{
+	width: 100%;
+	resize: none
+}
+.openContact .message .send
+{
+    margin: 14px 25%;
+    width: 50%;
+    height: 45px;
+    background-color: aqua;
+    border: 0px;
+    border-radius: 5px;
+    color: #EEE;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer
+}
+.openContact .message .send:hover
+{
+	color: black;
+	cursor: pointer
+}
+.openContact .message span
+{
+	height: 20px;
+	width: 4%;
+	position: absolute;
+	top: -20px;
+	left: 0;
+	border-radius: 50%;
+	background-color: aqua;
+	-webkit-animation: bang 1s infinite ease-in-out;
+	-moz-animation	 : bang 1s infinite ease-in-out;
+	-o-animation	 : bang 1s infinite ease-in-out;
+	-ms-animation	 : bang 1s infinite ease-in-out;
+	animation		 : bang 1s infinite ease-in-out
+}
+.openContact .message span:nth-of-type(2){left: 4%;animation-delay: 0.2s}
+.openContact .message span:nth-of-type(3){left: 8%;animation-delay: 0.4s}
+.openContact .message span:nth-of-type(4){left: 12%;animation-delay: 0.6s}
+.openContact .message span:nth-of-type(5){left: 16%;animation-delay: .8s}
+.openContact .message span:nth-of-type(6){left: 20%;animation-delay: 1s}
+.openContact .message span:nth-of-type(7){left: 24%;animation-delay: 1.2s}
+.openContact .message span:nth-of-type(8){left: 28%;animation-delay: 1.4s}
+.openContact .message span:nth-of-type(9){left: 32%;animation-delay: 1.6s}
+.openContact .message span:nth-of-type(10){left: 36%;animation-delay: 1.8s}
+.openContact .message span:nth-of-type(11){left: 40%;animation-delay: 2s}
+.openContact .message span:nth-of-type(12){left: 44%;animation-delay: 2.2s}
+.openContact .message span:nth-of-type(13){left: 48%;animation-delay: 2.4s}
+.openContact .message span:nth-of-type(14){left: 52%;animation-delay: 2.6s}
+.openContact .message span:nth-of-type(15){left: 56%;animation-delay: 2.8s}
+.openContact .message span:nth-of-type(16){left: 60%;animation-delay: 3s}
+.openContact .message span:nth-of-type(17){left: 64%;animation-delay: 3.2s}
+.openContact .message span:nth-of-type(18){left: 68%;animation-delay: 3.4s}
+.openContact .message span:nth-of-type(19){left: 72%;animation-delay: 3.6s}
+.openContact .message span:nth-of-type(20){left: 76%;animation-delay: 3.8s}
+.openContact .message span:nth-of-type(21){left: 80%;animation-delay: 4s}
+.openContact .message span:nth-of-type(22){left: 84%;animation-delay: 4.2s}
+.openContact .message span:nth-of-type(23){left: 88%;animation-delay: 4.4s}
+.openContact .message span:nth-of-type(24){left: 92%;animation-delay: 4.6s}
+.openContact .message span:nth-of-type(25){left: 96%;animation-delay: 4.8s}
+.openContact .message span:nth-of-type(26){left: 100%;animation-delay: 5s}
+.openContact .message span:nth-of-type(27){left: 104%;top: 0;animation-delay: 5.2s}
+.openContact .message span:nth-of-type(28){left: 104%;top: 20px;animation-delay: 5.4s;}
+.openContact .message span:nth-of-type(29){left: 104%;top: 40px;animation-delay: 5.6s;}
+.openContact .message span:nth-of-type(30){left: 104%;top: 60px;animation-delay: 5.8s;}
+.openContact .message span:nth-of-type(31){left: 104%;top: 80px;animation-delay: 6s;}
+.openContact .message span:nth-of-type(32){left: 104%;top: 100px;animation-delay: 6.2s;}
+.openContact .message span:nth-of-type(33){left: 104%;top: 120px;animation-delay: 6.4s;}
+.openContact .message span:nth-of-type(34){left: 104%;top: 140px;animation-delay: 6.6s;}
+.openContact .message span:nth-of-type(35){left: 104%;top: 160px;animation-delay: 6.8s;}
+.openContact .message span:nth-of-type(36){left: 104%;top: 180px;animation-delay: 7s;}
+.openContact .message span:nth-of-type(37)
+{
+	left: 104%;
+	top: 200px;
+	animation-delay: 7.2s;
+}
+.openContact .message span:nth-of-type(38)
+{
+	left: 104%;
+	top: 220px;
+	animation-delay: 7.4s;
+}
+.openContact .message span:nth-of-type(39)
+{
+	left: 104%;
+	top: 240px;
+	animation-delay: 7.6s;
+}
+.openContact .message span:nth-of-type(40)
+{
+	left: 104%;
+	top: 260px;
+	animation-delay: 7.8s;
+}
+.openContact .message span:nth-of-type(41)
+{
+	left: 104%;
+	top: 280px;
+	animation-delay: 8s;
+}
+.openContact .message span:nth-of-type(42)
+{
+	left: 104%;
+	top: 300px;
+	animation-delay: 8.2s;
+}
+.openContact .message span:nth-of-type(43)
+{
+	left: 104%;
+	top: 320px;
+	animation-delay: 8.4s;
+}
+.openContact .message span:nth-of-type(44)
+{
+	left: 104%;
+	top: 340px;
+	animation-delay: 8.6s;
+}
+.openContact .message span:nth-of-type(45)
+{
+	left: 100%;
+	top: 360px;
+	animation-delay: 8.8s;
+}
+.openContact .message span:nth-of-type(46)
+{
+	left: 96%;
+	top: 360px;
+	animation-delay: 9s;
+}
+.openContact .message span:nth-of-type(47)
+{
+	left: 92%;
+	top: 360px;
+	animation-delay: 9.2s;
+}
+.openContact .message span:nth-of-type(48)
+{
+	left: 88%;
+	top: 360px;
+	animation-delay: 9.4s;
+}
+.openContact .message span:nth-of-type(49)
+{
+	left: 84%;
+	top: 360px;
+	animation-delay: 9.6s;
+}
+.openContact .message span:nth-of-type(50)
+{
+	left: 80%;
+	top: 360px;
+	animation-delay: 9.8s;
+}
+.openContact .message span:nth-of-type(51)
+{
+	left: 76%;
+	top: 360px;
+	animation-delay: 10s;
+}
+.openContact .message span:nth-of-type(52)
+{
+	left: 72%;
+	top: 360px;
+	animation-delay: 10.2s;
+}
+.openContact .message span:nth-of-type(53)
+{
+	left: 68%;
+	top: 360px;
+	animation-delay: 10.4s;
+}
+.openContact .message span:nth-of-type(54)
+{
+	left: 64%;
+	top: 360px;
+	animation-delay: 10.6s;
+}
+.openContact .message span:nth-of-type(55)
+{
+	left: 60%;
+	top: 360px;
+	animation-delay: 10.8s;
+}
+.openContact .message span:nth-of-type(56)
+{
+	left: 56%;
+	top: 360px;
+	animation-delay: 11s;
+}
+.openContact .message span:nth-of-type(57)
+{
+	left: 52%;
+	top: 360px;
+	animation-delay: 11.2s;
+}
+.openContact .message span:nth-of-type(58)
+{
+	left: 48%;
+	top: 360px;
+	animation-delay: 11.4s;
+}
+.openContact .message span:nth-of-type(59)
+{
+	left: 44%;
+	top: 360px;
+	animation-delay: 11.6s;
+}
+.openContact .message span:nth-of-type(60)
+{
+	left: 40%;
+	top: 360px;
+	animation-delay: 11.8s;
+}
+.openContact .message span:nth-of-type(61)
+{
+	left: 36%;
+	top: 360px;
+	animation-delay: 12s;
+}
+.openContact .message span:nth-of-type(62)
+{
+	left: 32%;
+	top: 360px;
+	animation-delay: 12.2s;
+}
+.openContact .message span:nth-of-type(63)
+{
+	left: 28%;
+	top: 360px;
+	animation-delay: 12.4s;
+}
+.openContact .message span:nth-of-type(64)
+{
+	left: 24%;
+	top: 360px;
+	animation-delay: 12.6s;
+}
+.openContact .message span:nth-of-type(65)
+{
+	left: 20%;
+	top: 360px;
+	animation-delay: 12.8s;
+}
+.openContact .message span:nth-of-type(66)
+{
+	left: 16%;
+	top: 360px;
+	animation-delay: 13s;
+}
+.openContact .message span:nth-of-type(67)
+{
+	left: 12%;
+	top: 360px;
+	animation-delay: 13.2s;
+}
+.openContact .message span:nth-of-type(68)
+{
+	left: 8%;
+	top: 360px;
+	animation-delay: 13.4s;
+}
+.openContact .message span:nth-of-type(69)
+{
+	left: 4%;
+	top: 360px;
+	animation-delay: 13.6s;
+}
+.openContact .message span:nth-of-type(70)
+{
+	left: 0%;
+	top: 360px;
+	animation-delay: 13.8s;
+}
+.openContact .message span:nth-of-type(71)
+{
+	left: -4%;
+	top: 340px;
+	animation-delay: 14s;
+}
+.openContact .message span:nth-of-type(72)
+{
+	left: -4%;
+	top: 320px;
+	animation-delay: 14.2s;
+}
+.openContact .message span:nth-of-type(73)
+{
+	left: -4%;
+	top: 300px;
+	animation-delay: 14.4s;
+}
+.openContact .message span:nth-of-type(74)
+{
+	left: -4%;
+	top: 280px;
+	animation-delay: 14.6s;
+}
+.openContact .message span:nth-of-type(75)
+{
+	left: -4%;
+	top: 260px;
+	animation-delay: 14.8s;
+}
+.openContact .message span:nth-of-type(76)
+{
+	left: -4%;
+	top: 240px;
+	animation-delay: 15s;
+}
+.openContact .message span:nth-of-type(77)
+{
+	left: -4%;
+	top: 220px;
+	animation-delay: 15.2s;
+}
+.openContact .message span:nth-of-type(78)
+{
+	left: -4%;
+	top: 200px;
+	animation-delay: 15.4s;
+}
+.openContact .message span:nth-of-type(79)
+{
+	left: -4%;
+	top: 180px;
+	animation-delay: 15.6s;
+}
+.openContact .message span:nth-of-type(80)
+{
+	left: -4%;
+	top: 160px;
+	animation-delay: 15.8s;
+}
+.openContact .message span:nth-of-type(81)
+{
+	left: -4%;
+	top: 140px;
+	animation-delay: 16s;
+}
+.openContact .message span:nth-of-type(82)
+{
+	left: -4%;
+	top: 120px;
+	animation-delay: 16.2s;
+}
+.openContact .message span:nth-of-type(83)
+{
+	left: -4%;
+	top: 100px;
+	animation-delay: 16.4s;
+}
+.openContact .message span:nth-of-type(84)
+{
+	left: -4%;
+	top: 80px;
+	animation-delay: 16.6s;
+}
+.openContact .message span:nth-of-type(85)
+{
+	left: -4%;
+	top: 60px;
+	animation-delay: 16.8s;
+}
+.openContact .message span:nth-of-type(86)
+{
+	left: -4%;
+	top: 40px;
+	animation-delay: 17s;
+}
+.openContact .message span:nth-of-type(87)
+{
+	left: -4%;
+	top: 20px;
+	animation-delay: 17.2s;
+}
+.openContact .message span:nth-of-type(88)
+{
+	left: -4%;
+	top: 0;
+	animation-delay: 17.4s;
+}
+
+@keyframes bang
+{
+	0%, 100%
+	{
+		opacity: 0.3
+	}
+	50%
+	{
+		opacity: 1
+	}
+}
+
+.openContact .contact span
+{
+	height: 20px;
+	width: 4%;
+	position: absolute;
+	top: -20px;
+	left: 0;
+	border-radius: 50%;
+	background-color: aqua;
+	animation: bang 1s infinite ease-in-out
+}
+.openContact .contact span:nth-of-type(2)
+{
+    left: 4%;
+    animation-delay: 0.2s;
+}
+.openContact .contact span:nth-of-type(3)
+{
+    left: 8%;
+    animation-delay: 0.4s;
+}
+.openContact .contact span:nth-of-type(4)
+{
+    left: 12%;
+    animation-delay: 0.6s;
+}
+.openContact .contact span:nth-of-type(5)
+{
+    left: 16%;
+    animation-delay: .8s;
+}
+.openContact .contact span:nth-of-type(6)
+{
+    left: 20%;
+    animation-delay: 1s;
+}
+.openContact .contact span:nth-of-type(7)
+{
+    left: 24%;
+    animation-delay: 1.2s;
+}
+.openContact .contact span:nth-of-type(8)
+{
+    left: 28%;
+    animation-delay: 1.4s;
+}
+.openContact .contact span:nth-of-type(9)
+{
+    left: 32%;
+    animation-delay: 1.6s;
+}
+.openContact .contact span:nth-of-type(10)
+{
+    left: 36%;
+    animation-delay: 1.8s;
+}
+.openContact .contact span:nth-of-type(11)
+{
+    left: 40%;
+    animation-delay: 2s;
+}
+.openContact .contact span:nth-of-type(12)
+{
+    left: 44%;
+    animation-delay: 2.2s;
+}
+.openContact .contact span:nth-of-type(13)
+{
+    left: 48%;
+    animation-delay: 2.4s;
+}
+.openContact .contact span:nth-of-type(14)
+{
+    left: 52%;
+    animation-delay: 2.6s;
+}
+.openContact .contact span:nth-of-type(15)
+{
+    left: 56%;
+    animation-delay: 2.8s;
+}
+.openContact .contact span:nth-of-type(16)
+{
+    left: 60%;
+    animation-delay: 3s;
+}
+.openContact .contact span:nth-of-type(17)
+{
+    left: 64%;
+    animation-delay: 3.2s;
+}
+.openContact .contact span:nth-of-type(18)
+{
+    left: 68%;
+    animation-delay: 3.4s;
+}
+.openContact .contact span:nth-of-type(19)
+{
+    left: 72%;
+    animation-delay: 3.6s;
+}
+.openContact .contact span:nth-of-type(20)
+{
+    left: 76%;
+    animation-delay: 3.8s;
+}
+.openContact .contact span:nth-of-type(21)
+{
+    left: 80%;
+    animation-delay: 4s;
+}
+.openContact .contact span:nth-of-type(22)
+{
+    left: 84%;
+    animation-delay: 4.2s;
+}
+.openContact .contact span:nth-of-type(23)
+{
+    left: 88%;
+    animation-delay: 4.4s;
+}
+.openContact .contact span:nth-of-type(24)
+{
+    left: 92%;
+    animation-delay: 4.6s;
+}
+.openContact .contact span:nth-of-type(25)
+{
+    left: 96%;
+    animation-delay: 4.8s;
+}
+.openContact .contact span:nth-of-type(26)
+{
+    left: 100%;
+    animation-delay: 5s;
+}
+.openContact .contact span:nth-of-type(27)
+{
+	left: 104%;
+	top: 0;
+	animation-delay: 5.2s;
+}
+.openContact .contact span:nth-of-type(28)
+{
+	left: 104%;
+	top: 20px;
+	animation-delay: 5.4s;
+}
+.openContact .contact span:nth-of-type(29)
+{
+	left: 104%;
+	top: 40px;
+	animation-delay: 5.6s;
+}
+.openContact .contact span:nth-of-type(30)
+{
+	left: 104%;
+	top: 60px;
+	animation-delay: 5.8s;
+}
+.openContact .contact span:nth-of-type(31)
+{
+	left: 104%;
+	top: 80px;
+	animation-delay: 6s;
+}
+.openContact .contact span:nth-of-type(32)
+{
+	left: 104%;
+	top: 100px;
+	animation-delay: 6.2s;
+}
+.openContact .contact span:nth-of-type(33)
+{
+	left: 104%;
+	top: 120px;
+	animation-delay: 6.4s;
+}
+.openContact .contact span:nth-of-type(34)
+{
+	left: 104%;
+	top: 140px;
+	animation-delay: 6.6s;
+}
+.openContact .contact span:nth-of-type(35)
+{
+	left: 104%;
+	top: 160px;
+	animation-delay: 6.8s;
+}
+.openContact .contact span:nth-of-type(36)
+{
+	left: 104%;
+	top: 180px;
+	animation-delay: 7s;
+}
+.openContact .contact span:nth-of-type(37)
+{
+	left: 104%;
+	top: 200px;
+	animation-delay: 7.2s;
+}
+.openContact .contact span:nth-of-type(38)
+{
+	left: 104%;
+	top: 220px;
+	animation-delay: 7.4s;
+}
+.openContact .contact span:nth-of-type(39)
+{
+	left: 104%;
+	top: 240px;
+	animation-delay: 7.6s;
+}
+.openContact .contact span:nth-of-type(40)
+{
+	left: 104%;
+	top: 260px;
+	animation-delay: 7.8s;
+}
+.openContact .contact span:nth-of-type(41)
+{
+	left: 104%;
+	top: 280px;
+	animation-delay: 8s;
+}
+.openContact .contact span:nth-of-type(42)
+{
+	left: 104%;
+	top: 300px;
+	animation-delay: 8.2s;
+}
+.openContact .contact span:nth-of-type(43)
+{
+	left: 104%;
+	top: 320px;
+	animation-delay: 8.4s;
+}
+.openContact .contact span:nth-of-type(44)
+{
+	left: 104%;
+	top: 340px;
+	animation-delay: 8.6s;
+}
+.openContact .contact span:nth-of-type(45)
+{
+	left: 100%;
+	top: 360px;
+	animation-delay: 8.8s;
+}
+.openContact .contact span:nth-of-type(46)
+{
+	left: 96%;
+	top: 360px;
+	animation-delay: 9s;
+}
+.openContact .contact span:nth-of-type(47)
+{
+	left: 92%;
+	top: 360px;
+	animation-delay: 9.2s;
+}
+.openContact .contact span:nth-of-type(48)
+{
+	left: 88%;
+	top: 360px;
+	animation-delay: 9.4s;
+}
+.openContact .contact span:nth-of-type(49)
+{
+	left: 84%;
+	top: 360px;
+	animation-delay: 9.6s;
+}
+.openContact .contact span:nth-of-type(50)
+{
+	left: 80%;
+	top: 360px;
+	animation-delay: 9.8s;
+}
+.openContact .contact span:nth-of-type(51)
+{
+	left: 76%;
+	top: 360px;
+	animation-delay: 10s;
+}
+.openContact .contact span:nth-of-type(52)
+{
+	left: 72%;
+	top: 360px;
+	animation-delay: 10.2s;
+}
+.openContact .contact span:nth-of-type(53)
+{
+	left: 68%;
+	top: 360px;
+	animation-delay: 10.4s;
+}
+.openContact .contact span:nth-of-type(54)
+{
+	left: 64%;
+	top: 360px;
+	animation-delay: 10.6s;
+}
+.openContact .contact span:nth-of-type(55)
+{
+	left: 60%;
+	top: 360px;
+	animation-delay: 10.8s;
+}
+.openContact .contact span:nth-of-type(56)
+{
+	left: 56%;
+	top: 360px;
+	animation-delay: 11s;
+}
+.openContact .contact span:nth-of-type(57)
+{
+	left: 52%;
+	top: 360px;
+	animation-delay: 11.2s;
+}
+.openContact .contact span:nth-of-type(58)
+{
+	left: 48%;
+	top: 360px;
+	animation-delay: 11.4s;
+}
+.openContact .contact span:nth-of-type(59)
+{
+	left: 44%;
+	top: 360px;
+	animation-delay: 11.6s;
+}
+.openContact .contact span:nth-of-type(60)
+{
+	left: 40%;
+	top: 360px;
+	animation-delay: 11.8s;
+}
+.openContact .contact span:nth-of-type(61)
+{
+	left: 36%;
+	top: 360px;
+	animation-delay: 12s;
+}
+.openContact .contact span:nth-of-type(62)
+{
+	left: 32%;
+	top: 360px;
+	animation-delay: 12.2s;
+}
+.openContact .contact span:nth-of-type(63)
+{
+	left: 28%;
+	top: 360px;
+	animation-delay: 12.4s;
+}
+.openContact .contact span:nth-of-type(64)
+{
+	left: 24%;
+	top: 360px;
+	animation-delay: 12.6s;
+}
+.openContact .contact span:nth-of-type(65)
+{
+	left: 20%;
+	top: 360px;
+	animation-delay: 12.8s;
+}
+.openContact .contact span:nth-of-type(66)
+{
+	left: 16%;
+	top: 360px;
+	animation-delay: 13s;
+}
+.openContact .contact span:nth-of-type(67)
+{
+	left: 12%;
+	top: 360px;
+	animation-delay: 13.2s;
+}
+.openContact .contact span:nth-of-type(68)
+{
+	left: 8%;
+	top: 360px;
+	animation-delay: 13.4s;
+}
+.openContact .contact span:nth-of-type(69)
+{
+	left: 4%;
+	top: 360px;
+	animation-delay: 13.6s;
+}
+.openContact .contact span:nth-of-type(70)
+{
+	left: 0%;
+	top: 360px;
+	animation-delay: 13.8s;
+}
+.openContact .contact span:nth-of-type(71)
+{
+	left: -4%;
+	top: 340px;
+	animation-delay: 14s;
+}
+.openContact .contact span:nth-of-type(72)
+{
+	left: -4%;
+	top: 320px;
+	animation-delay: 14.2s;
+}
+.openContact .contact span:nth-of-type(73)
+{
+	left: -4%;
+	top: 300px;
+	animation-delay: 14.4s;
+}
+.openContact .contact span:nth-of-type(74)
+{
+	left: -4%;
+	top: 280px;
+	animation-delay: 14.6s;
+}
+.openContact .contact span:nth-of-type(75)
+{
+	left: -4%;
+	top: 260px;
+	animation-delay: 14.8s;
+}
+.openContact .contact span:nth-of-type(76)
+{
+	left: -4%;
+	top: 240px;
+	animation-delay: 15s;
+}
+.openContact .contact span:nth-of-type(77)
+{
+	left: -4%;
+	top: 220px;
+	animation-delay: 15.2s;
+}
+.openContact .contact span:nth-of-type(78)
+{
+	left: -4%;
+	top: 200px;
+	animation-delay: 15.4s;
+}
+.openContact .contact span:nth-of-type(79)
+{
+	left: -4%;
+	top: 180px;
+	animation-delay: 15.6s;
+}
+.openContact .contact span:nth-of-type(80)
+{
+	left: -4%;
+	top: 160px;
+	animation-delay: 15.8s;
+}
+.openContact .contact span:nth-of-type(81)
+{
+	left: -4%;
+	top: 140px;
+	animation-delay: 16s;
+}
+.openContact .contact span:nth-of-type(82)
+{
+	left: -4%;
+	top: 120px;
+	animation-delay: 16.2s;
+}
+.openContact .contact span:nth-of-type(83)
+{
+	left: -4%;
+	top: 100px;
+	animation-delay: 16.4s;
+}
+.openContact .contact span:nth-of-type(84)
+{
+	left: -4%;
+	top: 80px;
+	animation-delay: 16.6s;
+}
+.openContact .contact span:nth-of-type(85)
+{
+	left: -4%;
+	top: 60px;
+	animation-delay: 16.8s;
+}
+.openContact .contact span:nth-of-type(86)
+{
+	left: -4%;
+	top: 40px;
+	animation-delay: 17s;
+}
+.openContact .contact span:nth-of-type(87)
+{
+	left: -4%;
+	top: 20px;
+	animation-delay: 17.2s;
+}
+.openContact .contact span:nth-of-type(88)
+{
+	left: -4%;
+	top: 0;
+	animation-delay: 17.4s;
+}
+
+/*	=====   	Contact End  	=====	*/
+
+
+
+/*	=====   	Footer Begin  	=====	*/
+
+.footer
+{
+	background-color: rgb(38, 48, 60);
+	color: #FFF;
+	padding: 15px 15px 0 15px;
+	text-align: center
+}
+.footer .icons div
+{
+	width: 12%;
+}
+.footer .icons
+{
+	width: 60%;
+	margin-left: 20%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap
+}
+.footer .fab, .footer .fas
+{
+	font-size: 50px;
+	color: gold;
+	transition: all 0.1s ease-in-out
+}
+.footer a
+{
+	color: gold;
+	text-decoration: none
+}
+.footer .fab:hover , .footer .fas:hover
+{
+	color: rgba(255, 215, 0, 0.5);
+}
+.footer .right
+{
+	width: 100%;
+	font-size: 12px;
+	text-align: center
+}
+
+
+/*	=====   	Footer End  	=====	*/
+
+
+
+#myButton
+{
+	background-color: #FFF;
+	color: #000;
+	position: fixed;
+	right: 15px;
+	bottom: 50px;
+	padding: 5px;
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	border : none;
+	display: none;
+	transition: all .3s ease-in-out
+	
+}
+#myButton:hover
+{
+	background-color: #000;
+	color: #FFF;
+	cursor: pointer
+}
+.fa-arrow-up
+{
+	font-size: 30px;
+}

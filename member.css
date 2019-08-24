@@ -1,0 +1,218 @@
+
+/* ==========   Header Section Begin  ========== */
+
+*
+{
+	-moz-transition:	all .5s ease-in-out;
+	-webkit-transition:	all .5s ease-in-out;
+	-o-transition:		all .5s ease-in-out;
+	-ms-transition:		all .5s ease-in-out;
+	transition: 		all .5s ease-in-out;
+}
+body
+{
+	background: url('../images/bg pictures/img8.jpg') no-repeat fixed;
+	background-size:  100% 100%
+}
+.container
+{
+	width: 90%;
+	margin: auto
+}
+header
+{
+	position: fixed;
+	width: 98.8%
+}
+header nav 
+{
+	color: #6CCBBB;
+	background-color: rgb(38, 48, 60);/*	rgba(210, 210, 210, 0.3)	*/
+	padding: 7px
+}
+header .container
+{
+	display: flex;
+	-moz-flex-wrap		: wrap;
+	-webkit-flex-wrap	: wrap;
+	-o-flex-wrap		: wrap;
+	-ms-flex-wrap		: wrap;
+	flex-wrap			: wrap;
+	-moz-justify-content	: space-between;
+	-webkit-justify-content : space-between;
+	-o-justify-content		: space-between;
+	-ms-justify-content		: space-between;
+	justify-content			: space-between;
+	-moz-align-items	: center;
+	-webkit-align-items : center;
+	-o-align-items		: center;
+	-ms-align-items		: center;
+	align-items			: center;
+	font-family: arial
+}
+header .container .logo
+{
+    display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap	 : wrap;
+	-o-flex-wrap	 : wrap;
+	-ms-flex-wrap	 : wrap;
+	flex-wrap		 : wrap
+}
+.logo img
+{
+    width: 70px;
+    height: 68px;
+    margin-left: 40px;
+	border-radius: 50%
+}
+ul
+{
+	list-style-type: none
+}
+header nav ul li
+{
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 20px;
+	font-weight: 600
+}
+header nav ul li a
+{
+	text-decoration: none;
+	color: gold	/* Red */
+}
+header nav ul li a:hover
+{
+	-moz-animation		: signal .5s 1 ease-in-out;
+	-webkit-animation	: signal .5s 1 ease-in-out;
+	-o-animation		: signal .5s 1 ease-in-out;
+	-ms-animation		: signal .5s 1 ease-in-out;
+	animation			: signal .5s 1 ease-in-out
+}
+@keyframes signal
+{
+	0%
+	{
+		color: rgb(38, 48, 60)
+	}
+	100%
+	{
+		color: gold
+	}
+}
+header nav ul li #team
+{
+	text-decoration: underline
+}
+/* ==========   Header Section End  ========== */
+
+.memberImg
+{
+	margin:6.5% 0 0 38.9%;
+	width: 300px;
+	height: 198px;
+	border-radius: 50%
+}
+.name, .memberInfo .whatToKnow .work h2, .memberInfo h3
+{
+	text-align: center;
+	font-family: arial
+}
+.name, .memberInfo h3
+{
+	color: #FFF
+}
+.memberInfo .whatToKnow .work h2
+{
+	text-decoration: underline
+}
+.memberInfo
+{
+	margin-top: 10px
+}
+.memberInfo .whatToKnow
+{
+	display: flex;
+	-moz-flex-wrap	 : wrap;
+	-webkit-flex-wrap: wrap;
+	-o-flex-wrap	 : wrap;
+	-ms-flex-wrap	 : wrap;
+	flex-wrap		 : wrap
+}
+.memberInfo .whatToKnow .work
+{
+	margin: 5px auto;
+	background-color: rgba(210, 210, 210, 0.5);
+	height: 200px;
+	width: 270px;
+	padding: 10px;
+	border-radius: 10px;
+	line-height: 25px;
+	font-size: 17px;
+	font-weight: bold
+}
+.memberInfo .whatToKnow .work:hover
+{
+	-moz-transform	 : scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform	 : scale(1.2);
+	-ms-transform	 : scale(1.2);
+	transform		 : scale(1.2);
+	color: rgb(210, 210, 210);
+	background-color: #000;
+	-moz-box-shadow		: inset 0 0 10px 7px gold;
+	-webkit-box-shadow	: inset 0 0 10px 7px gold;
+	-o-box-shadow		: inset 0 0 10px 7px gold;
+	-ms-box-shadow		: inset 0 0 10px 7px gold;
+	box-shadow			: inset 0 0 10px 7px gold
+}
+.memberInfo .whatToKnow .work .media li a
+{
+	text-decoration: none;
+	color: #000
+}
+.memberInfo .whatToKnow .work:hover .media li a
+{
+	color: #FFF
+}
+.left
+{
+	float: left;
+	margin-top: 15px
+}
+.right
+{
+	float: right;
+	margin: 15px 35px
+}
+.memberInfo .whatToKnow .work .media .fcb:hover, .gthb:hover, .mail:hover, .in:hover 
+{
+	padding: 8px;
+	border-radius: 5px
+}
+.memberInfo .whatToKnow .work .media .fcb:hover
+{
+	background-color: #3578E5;
+	color: #000
+}
+.memberInfo .whatToKnow .work .media .gthb:hover
+{
+	background-color:white;
+	color: #000
+}
+.memberInfo .whatToKnow .work .media .mail:hover
+{
+	background-color: #d93025;
+	color: #000
+}
+.memberInfo .whatToKnow .work .media .in:hover
+{
+	background-color: rgb(0, 119, 181);
+	color: #000
+}
+.memberInfo h3
+{
+	width: 34%;
+	margin: 7px auto
+}
